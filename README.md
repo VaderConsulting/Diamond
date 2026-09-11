@@ -1,6 +1,6 @@
 # Diamond
 
-VB6 working copy of `Diamond` from Dave Robinson's OneDrive Historical Dev `VB/Old` folder. Project title: Diamond. Output: `Diamond.exe`. `VersionCompanyName`: Chips, Bits and Bytes.
+VB6 MDI warranty desk app ("Warranty") for a retail/stock Access database. Opens Stock, Warranty, and Suppliers tables via DAO 3.5, drives a stepped repair flow UI, barcode scan support, and sales forms. Company: Chips, Bits and Bytes. Output: `Diamond.exe`.
 
 **Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
@@ -10,7 +10,7 @@ _Note: original OneDrive LastWriteTime values were wiped to 2026-08-27 by a zip 
 
 | Project | Language | Type | Purpose |
 |---------|----------|------|---------|
-| `Project1` (`Diamond.vbp`) | VB6 | WinForms exe | Diamond |
+| `Project1` (`Diamond.vbp`) | VB6 | WinForms exe | Warranty/stock MDI with barcode flow |
 
 ## How to open
 
@@ -20,10 +20,12 @@ Open the `.vbp` in Visual Basic 6.0 IDE:
 ## Requirements
 
 - Visual Basic 6.0 IDE
+- Microsoft DAO 3.5 Object Library
 - Registered OCX/DLL dependencies referenced by the `.vbp` (may need to be installed separately):
   - `BarPic.ocx`
   - `Barcode.ocx`
   - `comctl32.ocx`
+  - Windows Scripting Host Object Model
 
 ## Attribution and provenance
 
